@@ -2,17 +2,18 @@
 ///         University of Hawaii, College of Engineering
 /// @brief  final_exam - EE 205 - Spr 2022
 ///
-/// @file test.cpp
+/// @file main.h
 /// @version 1.0
 ///
 /// @author Maxwell Pauly <mgpauly@hawaii.edu>
-/// @date   12_May_2022
+/// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
+#pragma once
+#ifndef FINAL_EXAM_MAIN_H
+#define FINAL_EXAM_MAIN_H
+#define DEBUG
+
+#include <stdio.h>
 #include <iostream>
-using namespace std;
 
-int main() {
-    cout << "Hello World" << endl;
-
-    return 0;
-}
+#endif //FINAL_EXAM_MAIN_H
