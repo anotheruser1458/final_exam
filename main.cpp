@@ -9,10 +9,8 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "main.h"
-#include "Shape.h"
 #include "Rectangle.h"
 #include "Square.h"
-using namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -26,6 +24,5 @@ int main() {
     std::cout << "The area of myRectangle is: "
               << myRectangle.compute_area()
               << std::endl;
-
     return 0;
 }

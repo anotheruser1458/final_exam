@@ -15,8 +15,8 @@
 class Square : public Rectangle{
 public:
     Square(double newSide) : Rectangle(newSide, newSide){};
+
     double getSide();
 };
-
 
 #endif //FINAL_EXAM_SQUARE_H

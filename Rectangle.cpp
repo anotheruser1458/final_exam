@@ -9,7 +9,6 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Rectangle.h"
-#include <iostream>
 
 double Rectangle::compute_area() {
     return Rectangle::width * Rectangle::length;

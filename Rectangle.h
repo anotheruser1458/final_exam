@@ -29,11 +29,8 @@ public:
     }
 
     double getLength() const;
-
     double getWidth() const;
-
     double compute_area() override;
 };
-
 
 #endif //FINAL_EXAM_RECTANGLE_H

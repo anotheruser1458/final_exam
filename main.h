@@ -11,7 +11,6 @@
 #pragma once
 #ifndef FINAL_EXAM_MAIN_H
 #define FINAL_EXAM_MAIN_H
-#define DEBUG
 
 #include <stdio.h>
 #include <iostream>
