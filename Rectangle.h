@@ -18,10 +18,10 @@ class Rectangle: public Shape {
 protected:
     double length;
     double width;
-public:
 
+public:
     Rectangle(double newLength, double newWidth) {
-        if (newLength <=0 || newWidth <=0) {
+        if (newLength <= 0 || newWidth <= 0) {
             throw std::invalid_argument("length and width must be > 0");
         }
         Rectangle::length = newLength;
